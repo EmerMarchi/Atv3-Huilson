@@ -37,7 +37,14 @@ fun main() {
 
     class Compra(
         var produto: Produto,
-    )
+    ){
+        fun comprar(){
+            print("O que você quer comprar?")
+            produto.nome = readln()
+            vitine.forEach {
+            }
+        }
+    }
 
     class Venda(
         var produto: Produto,
